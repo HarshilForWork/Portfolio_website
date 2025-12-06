@@ -9,7 +9,7 @@ const MainPage = () => {
     <main className="relative z-10">
       <Hero />
       <Skills />
-      <Projects />
+      <Projects limit={4} showMoreButton={true} />
       <Timeline />
       <Contact />
 

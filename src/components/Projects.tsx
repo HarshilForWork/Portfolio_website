@@ -1,8 +1,14 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { BlurFade, GradientText } from './AnimatedUI'
 
-const Projects = () => {
+interface ProjectsProps {
+  limit?: number
+  showMoreButton?: boolean
+}
+
+const Projects = ({ limit, showMoreButton = false }: ProjectsProps) => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
@@ -52,6 +58,8 @@ const Projects = () => {
     }
   ]
 
+  const displayedProjects = limit ? projects.slice(0, limit) : projects
+
   return (
     <section id="projects" className="py-20 md:py-32 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -70,8 +78,8 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+        <div className="grid md:grid-cols-2 gap-8">
+          {displayedProjects.map((project, index) => (
             <BlurFade key={project.title} delay={index * 0.1} duration={0.6}>
               <motion.div
                 className="group relative glass glass-hover rounded-2xl overflow-hidden cursor-pointer"
@@ -116,6 +124,26 @@ const Projects = () => {
             </BlurFade>
           ))}
         </div>
+
+        {/* More Projects Button */}
+        {showMoreButton && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="text-center mt-12"
+          >
+            <Link to="/projects">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl font-semibold text-lg shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all"
+              >
+                More Projects →
+              </motion.button>
+            </Link>
+          </motion.div>
+        )}
       </div>
     </section>
   )

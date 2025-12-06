@@ -8,7 +8,8 @@ const MenuButton = () => {
 
   const menuItems = [
     { name: 'Main', path: '/' },
-    { name: 'About Me', path: '/about' }
+    { name: 'About Me', path: '/about' },
+    { name: 'Projects', path: '/projects' }
   ]
 
   const toggleMenu = () => setIsOpen(!isOpen)

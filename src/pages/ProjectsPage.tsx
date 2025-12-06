@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import About from '../components/About'
+import Projects from '../components/Projects'
 
-const AboutPage = () => {
+const ProjectsPage = () => {
   return (
     <main className="relative z-10">
       {/* Back to Home Button */}
@@ -21,7 +21,7 @@ const AboutPage = () => {
         </Link>
       </div>
 
-      <About />
+      <Projects />
 
       {/* Footer */}
       <footer className="relative z-10 py-8 border-t border-white/10 bg-gray-950/50 backdrop-blur-sm">
@@ -35,4 +35,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default ProjectsPage

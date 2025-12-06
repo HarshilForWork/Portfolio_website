@@ -6,6 +6,7 @@ import MenuButton from './components/MenuButton'
 import ThreeBackground from './components/ThreeBackground'
 import AboutPage from './pages/AboutPage'
 import MainPage from './pages/MainPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -46,6 +47,19 @@ function AnimatedRoutes() {
               transition={{ duration: 0.4, ease: 'easeInOut' }}
             >
               <AboutPage />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98, filter: 'blur(10px)' }}
+              animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
+              exit={{ opacity: 0, scale: 1.02, filter: 'blur(10px)' }}
+              transition={{ duration: 0.4, ease: 'easeInOut' }}
+            >
+              <ProjectsPage />
             </motion.div>
           }
         />
