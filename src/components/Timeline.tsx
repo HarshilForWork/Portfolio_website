@@ -8,9 +8,9 @@ const Timeline = () => {
   const experience = {
     company: "PGAGI",
     position: "AI/ML Intern",
-    period: "June 2024 - December 2024",
-    description: "Worked on artificial intelligence and machine learning projects, developing and implementing ML models. Gained hands-on experience with data preprocessing, model training, and deployment. Collaborated with the team to solve real-world problems using AI/ML technologies.",
-    technologies: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"]
+    period: "Jun 2025 – Present",
+    description: "Developed REST API–based services using FastAPI for end-to-end AI video generation, integrating multimodal models for captioning, lip-syncing, voice cloning, and marketing content creation through prompt-tuned LLMs, reducing manual workload by 60%. Built modular microservices pipelines for scalable inference and concurrent processing, improving throughput and system reliability by 55% through asynchronous task handling and optimized orchestration.",
+    technologies: ["Python", "FastAPI", "REST APIs", "FFmpeg", "OpenAI API", "MongoDB", "MuseTalk", "ChatterBox"]
   }
 
   return (

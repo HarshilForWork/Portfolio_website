@@ -15,46 +15,37 @@ const Projects = ({ limit, showMoreButton = false }: ProjectsProps) => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Insurance Policy RAG System",
+      description: "Improved policy query efficiency by 70% and reduced manual analysis time by 60%. Production-ready RAG system that parses PDFs, creates embeddings, and provides AI-powered query interface with context-aware reasoning.",
+      tech: ["Python", "FastAPI", "Pinecone", "LangChain", "Gemini", "Streamlit"],
       image: "project1",
-      color: "from-purple-500 to-pink-500"
+      color: "from-purple-500 to-pink-500",
+      link: "https://github.com/HarshilForWork/JBBR-Backend",
+      badge: "HackRx 2024"
     },
     {
-      title: "AI Task Manager",
-      description: "Smart task management app with AI-powered prioritization and natural language processing for task creation.",
-      tech: ["Next.js", "OpenAI", "PostgreSQL", "Tailwind"],
+      title: "QuizEasy - AI Learning Assistant",
+      description: "Enabled 85% faster revision and improved learning efficiency by 60% through AI-generated flashcards and adaptive MCQs. Built with RAG-powered Q&A system for personalized learning.",
+      tech: ["Python", "LangChain", "Ollama", "FastAPI", "Streamlit"],
       image: "project2",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-blue-500 to-cyan-500",
+      link: "https://github.com/HarshilForWork/CO-CODE_Project_JBBR/tree/Harshil"
     },
     {
-      title: "Real-time Chat App",
-      description: "Scalable chat application with WebSocket support, file sharing, and end-to-end encryption.",
-      tech: ["React", "Socket.io", "Express", "Redis"],
+      title: "TerraShield - Earthquake Prediction",
+      description: "Predicted SIG, MMI, and CDI with 90%+ accuracy and R² score of 0.84 using LightGBM and XGBoost. Created Power BI dashboard for real-time earthquake impact visualization and regional alerts.",
+      tech: ["Python", "XGBoost", "LightGBM", "Power BI", "Scikit-learn"],
       image: "project3",
-      color: "from-green-500 to-teal-500"
+      color: "from-green-500 to-teal-500",
+      link: "https://earthquakepredictor.streamlit.app/"
     },
     {
-      title: "Portfolio Dashboard",
-      description: "Analytics dashboard for tracking portfolio performance with interactive charts and real-time data updates.",
-      tech: ["React", "D3.js", "Firebase", "Material-UI"],
+      title: "ExpenSure - Expense Management",
+      description: "Automated 95% of expense receipt analysis and fraud detection using OCR and LLM-based retrieval systems. Smart expense management system leveraging OCR and LLMs.",
+      tech: ["Python", "LangChain", "PaddleOCR", "Ollama", "Streamlit"],
       image: "project4",
-      color: "from-orange-500 to-red-500"
-    },
-    {
-      title: "Social Media API",
-      description: "RESTful API for social media platform with authentication, post management, and real-time notifications.",
-      tech: ["Node.js", "Express", "MongoDB", "JWT"],
-      image: "project5",
-      color: "from-indigo-500 to-purple-500"
-    },
-    {
-      title: "Weather Forecast App",
-      description: "Beautiful weather app with location-based forecasts, interactive maps, and severe weather alerts.",
-      tech: ["React Native", "OpenWeather API", "Redux", "Maps"],
-      image: "project6",
-      color: "from-cyan-500 to-blue-500"
+      color: "from-orange-500 to-red-500",
+      link: "https://github.com/JayGuri/JBBR_LOC7/tree/harshil"
     }
   ]
 

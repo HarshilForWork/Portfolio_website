@@ -6,33 +6,36 @@ const Skills = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const techStacks = [
-    // Frontend
-    { name: 'React', icon: 'react', category: 'Frontend' },
-    { name: 'Next.js', icon: 'nextjs', category: 'Frontend' },
-    { name: 'TypeScript', icon: 'typescript', category: 'Frontend' },
-    { name: 'JavaScript', icon: 'javascript', category: 'Frontend' },
-    { name: 'Tailwind CSS', icon: 'tailwindcss', category: 'Frontend' },
-    { name: 'HTML5', icon: 'html', category: 'Frontend' },
-    { name: 'CSS3', icon: 'css', category: 'Frontend' },
+    // Languages
+    { name: 'Python', icon: 'python', category: 'Languages' },
+    { name: 'JavaScript', icon: 'javascript', category: 'Languages' },
+    { name: 'Java', icon: 'java', category: 'Languages' },
+    { name: 'C', icon: 'c', category: 'Languages' },
+    { name: 'HTML5', icon: 'html', category: 'Languages' },
+    { name: 'CSS3', icon: 'css', category: 'Languages' },
     
-    // Backend
-    { name: 'Node.js', icon: 'nodejs', category: 'Backend' },
-    { name: 'Python', icon: 'python', category: 'Backend' },
-    { name: 'Express', icon: 'express', category: 'Backend' },
-    { name: 'PostgreSQL', icon: 'postgresql', category: 'Backend' },
+    // AI/ML & Data Science
+    { name: 'TensorFlow', icon: 'tensorflow', category: 'AI/ML' },
+    { name: 'PyTorch', icon: 'pytorch', category: 'AI/ML' },
+    { name: 'Scikit-learn', icon: 'sklearn', category: 'AI/ML' },
+    { name: 'Pandas', icon: 'pandas', category: 'AI/ML' },
+    { name: 'NumPy', icon: 'numpy', category: 'AI/ML' },
+    { name: 'Matplotlib', icon: 'matplotlib', category: 'AI/ML' },
+    
+    // Backend & APIs
+    { name: 'FastAPI', icon: 'fastapi', category: 'Backend' },
     { name: 'MongoDB', icon: 'mongodb', category: 'Backend' },
-    { name: 'Redis', icon: 'redis', category: 'Backend' },
+    { name: 'SQL', icon: 'mysql', category: 'Backend' },
+    { name: 'Streamlit', icon: 'streamlit', category: 'Backend' },
     
-    // Tools & Others
+    // Tools & Platforms
     { name: 'Git', icon: 'git', category: 'Tools' },
     { name: 'GitHub', icon: 'github', category: 'Tools' },
-    { name: 'Docker', icon: 'docker', category: 'Tools' },
-    { name: 'AWS', icon: 'aws', category: 'Tools' },
-    { name: 'Firebase', icon: 'firebase', category: 'Tools' },
-    { name: 'Figma', icon: 'figma', category: 'Tools' },
+    { name: 'Power BI', icon: 'powerbi', category: 'Tools' },
+    { name: 'Selenium', icon: 'selenium', category: 'Tools' },
   ]
 
-  const categories = ['Frontend', 'Backend', 'Tools']
+  const categories = ['Languages', 'AI/ML', 'Backend', 'Tools']
 
   return (
     <section id="skills" className="py-20 md:py-32 relative">

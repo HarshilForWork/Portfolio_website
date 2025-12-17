@@ -1,0 +1,72 @@
+Harshil Bhanushali
+Mumbai, India
+Email: harshilbhanushali11@gmail.com
+Phone: +91 8591699411
+Profiles: LinkedIn | GitHub | LeetCode
+
+EDUCATION
+SVKM’s Dwarkadas Jivanlal Sanghvi College of Engineering
+Computer Science and Engineering: Data Science
+CGPA: 8.3
+May 2023 – Present
+
+EXPERIENCE
+AI/ML Intern, PGAGI
+Jun 2025 – Present
+
+1. Developed REST API–based services using FastAPI for end-to-end AI video generation, integrating multimodal models for captioning, lip-syncing, voice cloning, and marketing content creation through prompt-tuned LLMs, reducing manual workload by 60%.
+
+2. Built modular microservices pipelines for scalable inference and concurrent processing, improving throughput and system reliability by 55% through asynchronous task handling and optimized orchestration.
+
+3. Tech Stack: Python, FastAPI, REST APIs, FFmpeg, OpenAI API, MongoDB, MuseTalk, ChatterBox
+
+PROJECTS
+
+Insurance Policy RAG System, HackRx 2024
+1. Improved policy query efficiency by 70% and reduced manual analysis time by 60% by implementing concurrent processing for faster multi-document querying and batch requests to Pinecone and other external APIs.
+2. Developed a production-ready RAG system that parses PDFs, creates embeddings, and provides an AI-powered query interface with context-aware reasoning.
+3. Tech Stack: Python, FastAPI, PyMuPDF, PDFPlumber, Pinecone, FAISS, Sentence Transformers, Google Gemini, LangChain, Streamlit
+
+QuizEasy, AI-Powered Learning Assistant
+1. Enabled 85% faster revision and improved learning efficiency by 60% through AI-generated flashcards and adaptive MCQs.
+2. Built a RAG-powered question answering system with LLM-based flashcard and MCQ generation for personalized learning.
+3. Tech Stack: Python, LangChain, Ollama, FastAPI, Streamlit, PDFPlumber, Sentence Transformers
+
+TerraShield, Earthquake Prediction System
+1. Predicted SIG, MMI, and CDI with 90%+ accuracy and an R² score of 0.84 using LightGBM and XGBoost models.
+2. Created a Power BI dashboard for real-time earthquake impact visualization and regional alerts.
+3. Tech Stack: Python, XGBoost, LightGBM, Power BI, Pandas, NumPy, Seaborn, Scikit-learn
+
+ExpenSure, Expense Management System
+1. Automated 95% of expense receipt analysis and fraud detection using OCR and LLM-based retrieval systems.
+2. Built a smart expense management system leveraging OCR and LLMs to automate receipt analysis and detect potential fraud.
+3. Tech Stack: Python, LangChain, PaddleOCR, Ollama, Streamlit
+
+ACHIEVEMENTS
+1. Winner, Impact Metrics Hackathon – IIT BHU (650+ participants)
+2. Winner, CO-Code Hackathon – DJS Compute (15+ teams)
+3. Winner, Think-o-vate Ideathon – DJS S4DS (150+ participants)
+
+POSITIONS OF RESPONSIBILITY
+ML Head, Society for Data Science
+Led a team to design Data Science, Core ML, and NLP problem statements, and managed hackathons with 30+ teams.
+
+Publicity Head, DJS Express
+Led 80+ members to plan and execute online and offline publicity campaigns for major college events.
+
+SKILLS
+Languages: Python, C, Java, JavaScript, HTML/CSS
+Databases: SQL, MongoDB
+Tools and Platforms: Git/GitHub, Power BI
+Libraries and Frameworks: TensorFlow, PyTorch, LangChain, Ollama, OpenAI API, FastAPI, PyMuPDF, PDFPlumber,
+PaddleOCR, DeepSeek, Selenium, BeautifulSoup, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Streamlit
+
+Links :
+Git hub profile : https://github.com/HarshilForWork
+Leetcode : https://leetcode.com/u/Harshil_B7910/    
+LinkedIn : www.linkedin.com/in/harshil-bhanushali-4b55a22b5
+
+Project 1 : https://github.com/HarshilForWork/JBBR-Backend
+Project 2 : https://github.com/HarshilForWork/CO-CODE_Project_JBBR/tree/Harshil
+Project 3 : https://earthquakepredictor.streamlit.app/
+Project 4 : https://github.com/JayGuri/JBBR_LOC7/tree/harshil
